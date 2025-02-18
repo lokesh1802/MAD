@@ -1,0 +1,60 @@
+name: food_delivery_app
+description: A food delivery application for CS 442 MP6.
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none' 
+
+# Version number
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Core
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  
+  # Network and API
+  http: ^1.1.0
+  
+  # Storage
+  shared_preferences: ^2.2.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+
+  # Collection utilities
+  collection: ^1.17.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Testing utilities
+  integration_test:
+    sdk: flutter
+  test: ^1.24.1
+  mockito: ^5.4.2
+  
+  # Linting
+  flutter_lints: ^2.0.3
+
+# Flutter specific configurations
+flutter:
+  uses-material-design: true
+
+  # Add assets here if you have any
+  # assets:
+  #   - assets/images/
+  
+  # Add fonts here if you have any
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
